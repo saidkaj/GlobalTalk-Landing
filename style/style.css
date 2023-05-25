@@ -28,6 +28,10 @@ a {
     border-bottom: 1px solid var(--gray-medium);
 }
 
+.header__burger {
+    display: none;
+}
+
 .header__container {
     display: block;
     max-width: 1180px;
@@ -157,6 +161,10 @@ a {
     color: var(--gray-text);
 }
 
+.hero__description-mobile {
+    display: none;
+}
+
 .hero__btn {
     border: none;
     width: 175px;
@@ -186,6 +194,10 @@ a {
 
 .hero__numbers {
     margin-bottom: 130px;
+}
+
+.hero__number-responsive {
+    display: none;
 }
 
 .hero__background-image {
@@ -309,6 +321,10 @@ a {
     height: 410px;
 }
 
+.progress__responsive {
+    display: none;
+}
+
 .progress__heading {
     padding-top: 150px;
     margin-bottom: 30px;
@@ -354,7 +370,6 @@ a {
 
 .footer {
     background-color: var(--gray-light);
-    height: 160px;
 }
 
 .footer__container {
